@@ -20,7 +20,7 @@
 
 ```js
 import {marked} from "marked";
-import |thisExtension| from "marked-|this-extension|";
+import marked-block-justification from "marked-|this-extension|";
 
 // or UMD script
 // <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
@@ -30,7 +30,7 @@ const options = {
 	// |default options|
 };
 
-marked.use(|thisExtension|(options));
+marked.use(marked-block-justification(options));
 
 marked.parse("|example markdown|");
 // <p>|example html|</p>

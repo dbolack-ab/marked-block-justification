@@ -1,7 +1,7 @@
 import { marked } from 'marked';
 import thisExtension from '../src/index.js';
 
-describe('this-extension', () => {
+describe('marked-block-justification', () => {
   beforeEach(() => {
     marked.setOptions(marked.getDefaults());
   });

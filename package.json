@@ -1,7 +1,7 @@
 {
-  "name": "marked-extension-template",
+  "name": "marked-block-justification",
   "version": "0.0.0",
-  "description": "marked extension template",
+  "description": "marked-block-justification",
   "main": "./lib/index.cjs",
   "module": "./src/index.js",
   "browser": "./lib/index.umd.js",
@@ -29,21 +29,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/markedjs/marked-extension-template.git"
+    "url": "git+https://github.com/dbolack-ab/marked-block-justification.git"
   },
-  "author": "Tony Brix <Tony@Brix.ninja> (https://Tony.Brix.ninja)",
+  "author": "David Bolack",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/markedjs/marked-extension-template/issues"
+    "url": "https://github.com/dbolack-ab/marked-block-justification/issues"
   },
-  "homepage": "https://github.com/markedjs/marked-extension-template#readme",
+  "homepage": "https://github.com/dbolack-ab/marked-block-justification#readme",
   "peerDependencies": {
     "marked": ">=15 <16"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
-    "@markedjs/eslint-config": "^1.0.8",
+    "@dbolack-ab/eslint-config": "^1.0.8",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^13.0.0",
     "@semantic-release/git": "^10.0.1",
